@@ -1,0 +1,271 @@
+/* 23. Responsive Styles 
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+@media only screen and (max-width: 1920px) {
+
+}
+@media only screen and (max-width: 1400px){
+	.navbar-toggle .icon-bar {
+	  background: #ffffff;
+	  border-radius: 1px;
+	  display: block;
+	  height: 2px;
+	  width: 22px;
+	}
+}
+@media only screen and (max-width: 991px) {
+	
+	.agency-navbar{
+		background:rgba(18, 18, 18, 1);
+		padding:15px 0px !important;
+	}
+	.is-sticky .agency-navbar{
+		background:rgba(18, 18, 18, 1);
+	}
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+		z-index:5;
+    }
+    .navbar-brand {
+	    font-size: 18px;
+	    line-height: 20px;
+	    width: 100px;
+	    margin-top: 9px;
+	    margin-left: -19px;
+	}
+    .navbar-collapse {
+	    	-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.50) inset;
+	   		-moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.50) inset;
+	    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.50) inset;
+
+			filter:progid:DXImageTransform.Microsoft.dropshadow(
+			    OffX=1px, OffY=0, Color='black', Positive='true'
+			); /* IE 5.5 */ 
+		border-collapse: separate; /* Required by IE 9 */
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar-text {
+        float: none;
+        margin: 15px 0;
+    }
+    /* since 3.1.0 */
+    .navbar-collapse.collapse.in { 
+        display: block!important;
+    }
+    .collapsing {
+        overflow: hidden!important;
+    }
+    #top_area {
+	    height: auto;
+	}
+	.welcome_header{
+		width: 100%;
+		text-align: center;
+	}
+    .welcome_img>img{
+    	margin-left: 40%;
+    }
+    .welcome_header h2:before{
+		left: 50%;
+	}
+	.concept_header{
+		text-align: center;
+	}
+	.concept_header h2:before{
+		left: 50%;
+	}
+	.concept_img img{
+		margin-left: 50%;
+	}
+	.skill_img{
+		margin-bottom: 100px;
+	}
+	.process_dts{
+		text-align: center;
+	}
+	.process_dts h2:before{
+		left: 50%;
+	}
+    .btn-work{
+		margin-top: 100%;
+	}
+	.callout-section {
+		margin-left: 15%;
+	}
+	.process_img{
+		margin-left: 100px;
+	}
+	.testimonial_slider .owl-item img {
+		margin-left: 40%;
+	}
+	#brand .brand_logo::after {
+		width: 115%;
+		left: -39px;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	body {
+		text-align:center;
+	}
+
+	.icon-bar {
+	  background: red;
+	}
+	.welcome_header{
+		text-align: left;
+	}
+	.welcome_header h2:before{
+		left: 0%;
+	}
+	.abut_icon i{
+		margin-left: 20%;
+	}
+	.about_us{
+		text-align: left;
+	}
+	.concept_header{
+		text-align: left;
+	}
+	.concept_header h2:before{
+		left: 0%;
+	}
+	.progress-bar {
+	    text-align: center;
+	}
+	.process_dts{
+		text-align: left;
+	}
+	.process_dts h2:before{
+		left: 0%;
+	}
+	.callout-section .icon-holder:before{
+	  display: none;
+	}
+	.callout-section {
+		margin-left: 0%;
+	}
+	.process_heading{
+		text-align: left;
+	}
+}
+@media only screen and (max-width:767px) {
+	body {
+		text-align:center;
+
+	}
+	.container{
+		width:80%;
+		margin:0px auto;
+	}
+	header .navbar-nav > li > a {
+	  display: inline-flex;
+	}
+	
+	
+}
+	
+@media only screen and (max-width: 480px) {
+	body {
+		text-align:center;
+	}
+	#top_section h1 {
+		font-size: 45px;
+	}
+	h2 {
+		font-size: 25px;
+	}
+	h3 {
+		font-size: 15px;
+	}
+	.topbar-social{
+		text-align: center;
+	}
+	.welcome_img>img{
+    	margin-left: 0%;
+    }
+    #design{
+    	height: 650px;
+    	padding: 50px 0px;
+    }
+    .design_header p{
+		font-size: 15px;
+	}
+	.about_us{
+		text-align: center;
+	}
+	.concept_img img{
+		margin-left: 0%;
+	}
+	.bar_content h3 {
+	    margin-bottom: 50px;
+	}
+	#top_section{
+	    padding: 100px 0px;
+	}
+	.btn-work{
+		margin-top: 30%;
+	}
+	#facts{
+	    padding: 40px 0px;
+	    height: 850px;
+	}
+	.facts_count i{
+		font-size: 46px;
+	}
+	.facts_count h5{
+	    font-size: 30px;
+	}
+	.facts_count p{
+		font-size: 12px;
+	}
+	.testimonial_slider .owl-item img {
+		margin-left: 25%;
+	}
+	#brand .agency-brand::before,
+	#brand .agency-brand::after {
+		display: none;
+	}
+}
+@media only screen and (max-width: 360px) {
+	body {
+		text-align:center;
+	}
+	
+}
+@media only screen and (max-width: 320px) {
+	body {
+		text-align:center;
+	}
+	#design{
+    	height: 650px;
+    	padding: 5px 0px;
+    }
+    .btn-design{
+	    font-size: 12px;
+		margin-top: 10px;
+	}	
+}
+
+.carousel-inner > .item > a > img, .carousel-inner > .item > img, .img-responsive, .thumbnail a > img, .thumbnail > img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+.concept_img img, .skill_img img, .slider_part img{
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
